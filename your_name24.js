@@ -11,3 +11,35 @@ var Tanoreenmarker= L.marker([40.63141267176866, -74.02759977518336]).addTo(map)
 
 // Load the GeoJson line file
 fetch('https://dunyadj.github.io/Dj3/Daytime.geojson')
+
+
+
+
+
+// Load the  GeoJOSN line file 
+fetch('https://aurashktest.github.io/aurashtest/akdaytimeroute.geojson')
+    .then(response => response.json())
+    .then(geojson => {
+        //Customize the style of the line
+        var lineStyle = {
+            color: 'green', // Change color as needed
+            weight: 6, // Change weight as needed
+            opacity: 0.8 // Change opacity as needed
+        };
+
+        // Add the GeoJSON line to the map
+        L.geoJSON(geojson, {
+            style: lineStyle
+        }).addTo(map);
+    })
+    .catch(error => {
+        console.error('Error loading GeoJSON file:', error);
+    });
+
+
+
+
+
+
+
+
