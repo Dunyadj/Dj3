@@ -17,7 +17,7 @@ var Tanoreenmarker= L.marker([40.63141267176866, -74.02759977518336]).addTo(map)
 
 
 // Load the  GeoJOSN line file 
-fetch('https://dunyadj.github.io/Dj3/_daytimeroute.geojson')
+fetch('https://dunyadj.github.io/Dj3/daytimeroute.geojson')
     .then(response => response.json())
     .then(geojson => {
         //Customize the style of the line
