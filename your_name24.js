@@ -17,7 +17,7 @@ fetch('https://dunyadj.github.io/Dj3/Daytime.geojson')
 
 
 // Load the  GeoJOSN line file 
-fetch('https://aurashktest.github.io/aurashtest/akdaytimeroute.geojson')
+fetch('https://dunyadj_daytimeroute.geojson')
     .then(response => response.json())
     .then(geojson => {
         //Customize the style of the line
