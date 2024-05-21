@@ -9,15 +9,15 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Add a marker to the map for New York City
 var Tanoreenmarker= L.marker([40.63141267176866, -74.02759977518336]).addTo(map);
 
-// Load the GeoJson line file
-fetch('https://dunyadj.github.io/Dj3/Daytime.geojson')
+
+
 
 
 
 
 
 // Load the  GeoJOSN line file 
-fetch('https://dunyadj_daytimeroute.geojson')
+fetch('https://dunyadj.github.io/Dj3/_daytimeroute.geojson')
     .then(response => response.json())
     .then(geojson => {
         //Customize the style of the line
