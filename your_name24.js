@@ -16,5 +16,5 @@ var Tanoreenmarker = L.marker([40.63141267176866, -74.02759977518336]).addTo(map
 // Add a popup to the marker
 luigismarker.bindPopup(`
     <b>Tanoreen</b><br>Best Arabic Food in Bay Ridge<br>
-    <img src="https://aurashktest.github.io/aurashktest/images/luigis.png" style="width: 100px; height: auto;">
+    <img src="/dunyadj.github.io/Dj3/tanoreen-brand.png" style="width: 100px; height: auto;">
 `).openPopup();
