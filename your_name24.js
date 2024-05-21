@@ -24,7 +24,7 @@ fetch('https://Dj3.github.io/Dj3/dunyadj_daytimeroute.geojson')
         var lineStyle = {
             color: 'green', // Change color as needed
             weight: 10, // Change weight as needed
-            opacity: 0.10 // Change opacity as needed
+            opacity: 0.7 // Change opacity as needed
         };
 
         // Add the GeoJSON line to the map
